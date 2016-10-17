@@ -1,7 +1,7 @@
 (function () {
 
     // Change this to your GitHub username so you don't have to modify so many things.
-    var fork = "basicBot";
+    var fork = "Raizel97";
 
     // Define our function responsible for extending the bot.
     function extend() {
@@ -112,6 +112,6 @@
     }));
 
     // Start the bot and extend it when it has loaded.
-    $.getScript("https://rawgit.com/Raizel97/custom/master/basicBot.js", extend);
+    $.getScript("https://rawgit.com/Raizel97/custom/master/extension.js", extend);
 
 }).call(this);
